@@ -73,7 +73,7 @@ def run(loaded=False):
         loaded = True
     elif opcode == "print":
         if not loaded:
-            print("Database not loaded, please load before attempting to query")
+            print("Database not loaded, please load before sattempting to query")
         else:
             display(ops[1])
     elif opcode == "find":
